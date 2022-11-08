@@ -1,0 +1,29 @@
+:root{
+    --main-color: blue;
+    --second-color: red;
+    --container-Hsize: 500px;
+    --box-wsize: 225px;
+    --box-radius:32px;
+}
+*{
+    box-sizing: border-box;
+    font-family: cursive;
+    margin: 0px; padding: 0px;
+}
+.container{
+    height: 400px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.box{
+    border: 1px, solid var(--Main-color);
+    background-color:var(--second-color);
+    color:var(--main-color);
+    width:var(--box-wsize);
+    padding: 16px;
+    box-shadow: 4px 4px 16px 1px ,var(--Main-color);
+    border-radius: var(--box-radius);
+    
+}

@@ -1,0 +1,55 @@
+* {
+    font-family: cursive;
+    margin: opx;
+    box-sizing: border-box;
+    border: 0px;
+
+}
+body {
+    background-color: peachpuff;
+    background-image: url(:https://source.unslpash.com/random/1280x830);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+     
+}
+h1{
+    text-align: center;
+    text-shadow: 4px 2px 8px cornsilk;
+}
+h1, h2, p{
+    margin: 8px auto;
+}
+.mybox{
+    width: 650;
+    height: fit-content;
+    border: 4px solid;color: blue;
+    padding: 36px;
+    margin: 16px auto;
+
+}
+.btn{
+    display: inline-block;
+    border: 1px solid;color: aquamarine;
+    height: 50px;
+    width: 75px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: cadetblue;
+    color: aqua;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 13px;
+    margin: opx 4px;
+    border-radius: 12px;
+    text-decoration: none;
+
+}
+.btn:hover {
+    background-color:pink;
+    color: blueviolet;
+    font-weight: bolder;
+    box-shadow: 4px 4px 8px 0px cornflowerblue;
+
+}
